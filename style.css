@@ -1,0 +1,31 @@
+ *,html,body {
+    padding:0;
+    margin:0;
+    font-family: 'Orgon Slab';
+    background-color: red;
+  }
+
+  canvas {
+    background-color:red;
+  }
+  #wrapper {
+    left:10%;
+    top: 10%;
+    position:absolute;
+  }
+
+  #dashboard {
+    background-color:none;
+    color: white;
+  }
+
+  #dashboard * {
+    background-color: none;
+    line-height: 1.5rem;
+  }
+
+  .slider {
+    width: 50%;
+    right: 10%;
+    position:absolute;
+  }

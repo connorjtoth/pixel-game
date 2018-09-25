@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Pixel Game</title>
+
+<!--
+The game is about 
+The game is about keeping the trains on schedule without a wreck!
+Trains are represented by Blocks
+Train speeds can be manipulated from min-max
+Junctions can be changed to go one way or the other
+Anyone can claim control of any train, but only one person can have a train at a time
+-->
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div id="wrapper">
+    <canvas id="main_canvas"></canvas>    
+    <div id="dashboard">
+      Grid Size: <span id="gridSizeDisp"></span> <input type="range" min="4" max="35" value="8" class="slider" id="gridSizeRange">
+      <br>
+      Scaling: <span id="scalingDisp"></span><input type="range" min="1" max="10" value="3" class="slider" id="scalingRange">
+      <br>
+      NumPixels: <span id="numPixelsDisp"></span><input type="range" min="1" max="100" value="30" class="slider" id="numPixelsRange">
+
+      <!--Grid Size <input type="range" min="1" max="100" value="50" class="slider" id="gridSizeRange">-->
+
+    </div>
+  </div>
+</body>
+
+<script src="vector2.js"></script>
+<script src="canvas.js"></script>
+<script src="calc.js"></script>
+<script src="game-redo.js"></script>
+</html>
